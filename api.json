@@ -1,8 +1,15 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
+"logo"："file://TVBox/logo.png"，
     "sites": [
+        {
+            "key": "路漫漫",
+            "name": "路漫漫｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/路漫漫.js"
+        },  
         {
             "key": "豆瓣",
             "name": "豆瓣｜首页",
@@ -77,93 +84,93 @@
             "name": "菲菲｜弹幕",
             "type": 3,
             "api": "csp_AppFerr",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+            "外部":"sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
         },
         {
-            "key": "腾讯视频",
-            "name": "腾讯｜视频",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/腾讯视频.js"
+            "键":"腾讯视频",
+            "名称":"腾讯|视频",
+            "类型":3,
+            "api":"./js/drpy2.min.js",
+            "外部":"./js/腾讯视频.JS"
         },
         {
-            "key": "优酷视频",
-            "name": "优酷｜视频",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/优酷视频.js"
+            "键":"优酷视频",
+            "名称":"优酷|视频",
+            "类型":3,
+            "api":"./js/drpy2.min.js",
+            "外部":"./js/优酷视频.js"
         },
         {
-            "key": "芒果视频",
-            "name": "芒果｜视频",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/芒果视频.js"
+            "键":"芒果视频",
+            "名称":"芒果|视频",
+            "类型":3,
+            "api":"./js/drpy2.min.js",
+            "外部":"./js/芒果视频.js"
         },
         {
-            "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/爱奇艺.js"
+            "键":"爱奇艺",
+            "名称":"爱奇艺|视频",
+            "类型":3,
+            "api":"./js/drpy2.min.js",
+            "外部":"./js/爱奇艺.js"
         },
         {
-            "key": "三六零",
-            "name": "三六零｜视频",
-            "type": 3,
-            "api": "csp_SP360"
+            "键":"三六零",
+            "名称":"三六零|视频",
+            "类型":3,
+            "api":"csp_SP360"
         },
         {
-            "key": "哔哩合集",
-            "name": "哔哩｜合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
+            "键":"哔哩合集",
+            "名称":"哔哩|合集",
+            "类型":3,
+            "api":"csp_Bili",
+            "可搜索":1,
+            "快速搜索":0,
+            "可过滤":0,
+            "可更改":0,
+            "样式":{
+                "类型":"rect",
+                "比率":1.433
             },
-            "ext": {
-                "json": "./json/哔哩合集.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            "外部":{
+                "json":"./json/哔叽哩合集.Json",
+                "cookie":"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
         {
-            "key": "西瓜视频",
-            "name": "西瓜｜视频",
-            "type": 3,
-            "api": "csp_AmuXiguaV2",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
+            "键":"西瓜视频",
+            "名称":"西瓜|视频",
+            "类型":3,
+            "api":"csp_AmuXiguaV2",
+            "可搜索":1,
+            "快速搜索":0,
+            "可过滤":0,
+            "可更改":0,
+            "样式":{
+                "类型":"rect",
+                "比率":1.597
             }
         },
         {
-            "key": "玩偶哥哥",
-            "name": "玩偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/wogg.json?"
+            "键":"玩偶哥哥",
+            "名称":"玩偶|4K弹幕",
+            "类型":3,
+            "api":"csp_PanWebShare",
+            "可搜索":1,
+            "快速搜索":1,
+            "可过滤":1,
+            "外部":"./json/wogg.json？"
         },
         {
-            "key": "木偶",
-            "name": "木偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/mogg.json?"
+            "键":"木偶",
+            "名称":"木偶|4K弹幕",
+            "类型":3,
+            "api":"csp_PanWebShare",
+            "可搜索":1,
+            "快速搜索":1,
+            "可过滤":1,
+            "外部":"./json/mogg.json？"
         },
         {
             "key": "蜡笔",
@@ -1385,13 +1392,7 @@
             "api": "./js/drpy2.min.js",
             "ext": "./js/动画片大全.js"
         },
-        {
-            "key": "路漫漫",
-            "name": "路漫漫｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/路漫漫.js"
-        },
+        
         {
             "key": "动漫岛",
             "name": "动漫岛｜动漫",
