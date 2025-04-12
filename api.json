@@ -1,65 +1,65 @@
 {
-    "spider": "./spider.jar",
-    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-"logo"："file://TVBox/logo.png"，
-    "sites": [
+    "蜘蛛":"./spider.jar",
+    "壁纸":"http://bobohome.ignorelist.com:20247/bing",
+"徽标"："文件：//TVBox/logo.png",
+    "站点":[
         {
-            "key": "路漫漫",
-            "name": "路漫漫｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/路漫漫.js"
-        },  
-        {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
+            "键":"路漫漫",
+            "名称":"路漫漫|动漫",
+            "类型":3,
+            "api":"./js/drpy2.min.js",
+            "外部":"./js/路漫漫.js"
         },
         {
-            "key": "预告",
-            "name": "新片｜预告",
-            "type": 3,
-            "api": "csp_DouBan",
-            "searchable": 0
+            "键":"豆瓣",
+            "名称":"豆瓣|首页",
+            "类型":3,
+            "api":"csp_豆瓣",
+            "可搜索":0
         },
         {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
+            "键":"预告",
+            "名称":"新片|预告",
+            "类型":3,
+            "api":"csp_Douban",
+            "可搜索":0
         },
         {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
+            "键":"本地",
+            "名称":"本地|视频",
+            "类型":3,
+            "api":"csp_Localfile"
+        },
+        {
+            "键":"配置中心",
+            "名称":"配置|中心",
+            "类型":3,
+            "api":"csp_Config",
+            "可搜索":0,
+            "可更改":0,
+            "索引":0,
+            "样式":{
+                "类型":"rect",
+                "比率":1.597
             }
         },
         {
-            "key": "热播影视",
-            "name": "热播｜弹幕",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://v.rbotv.cn"
+            "键":"热播影视",
+            "名称":"热播|弹幕",
+            "类型":3,
+            "api":"csp_APPRJ",
+            "可搜索":1,
+            "快速搜索":1,
+            "可过滤":0,
+            "外部":{
+                "URL":"http://v.rbotv.cn"
             }
         },
         {
-            "key": "天天影视",
-            "name": "天天｜弹幕",
-            "type": 3,
-            "api": "csp_AppRJ",
+            "键":"天天影视",
+            "名称":"天天|弹幕",
+            "类型":3,
+            "api":"csp_APPRJ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
