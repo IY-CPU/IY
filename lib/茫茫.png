@@ -1,1 +1,338 @@
-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
+var rule = {
+    title: '百忙无果[官]',
+    host: 'https://pianku.api.mgtv.com',
+    homeUrl: '',
+    searchUrl: 'https://mobileso.bz.mgtv.com/msite/search/v2?q=**&pn=fypage&pc=10',
+    detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    multi: 1,
+    url: '/rider/list/pcweb/v3?platform=pcweb&channelId=fyclass&pn=fypage&pc=80&hudong=1&_support=10000000&kind=a1&area=a1',
+    filter_url: 'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
+    headers: {
+        'User-Agent': 'PC_UA'
+    },
+    timeout: 5000,
+    class_name: '\u832b\u832b\u7535\u5f71\u0026\u832b\u832b\u7535\u89c6\u5267\u0026\u832b\u832b\u7efc\u827a\u0026\u832b\u832b\u52a8\u6f2b\u0026\u832b\u832b\u7eaa\u5f55\u7247\u0026\u832b\u832b\u6559\u80b2\u0026\u832b\u832b\u5c11\u513f',
+    class_url: '\u0033\u0026\u0032\u0026\u0031\u0026\u0035\u0030\u0026\u0035\u0031\u0026\u0031\u0031\u0035\u0026\u0031\u0030',
+    filter: {
+        "1": getCommonFilter(),
+        "2": getCommonFilter(),
+        "3": getCommonFilter(),
+        "50": getCommonFilter(),
+        "51": getCommonFilter(),
+        "115": getCommonFilter()
+    },
+    limit: 20,
+    play_parse: true,
+    lazy: $js.toString(() => {
+        try {
+            let api = "http://8.134.205.252:39466/ceshi/cs.php?key=oneyx&url=" + input.split("?")[0];
+            console.log(api);
+            let response = fetch(api, {
+                method: 'get',
+                headers: {
+                    'User-Agent': 'okhttp/3.14.9',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            });
+            let bata = JSON.parse(response);
+            input = {
+                parse: 0,
+                url: bata.url.includes("mgtv") ? bata.url : input.split("?")[0],
+                jx: bata.url.includes("mgtv") ? 0 : 1,
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
+            };
+        } catch {
+            input = {
+                parse: 0,
+                url: input.split("?")[0],
+                jx: 1,
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
+            };
+        }
+    }),
+    一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
+    二级: $js.toString(() => {
+        fetch_params.headers.Referer = "https://www.mgtv.com";
+        fetch_params.headers["User-Agent"] = MOBILE_UA;
+
+        let videoId = input.split('video_id=')[1].split('&')[0];
+        let infoUrl = `https://pcweb.api.mgtv.com/video/info?allowedRC=1&vid=${videoId}&type=b&_support=10000000`;
+        let infoData = JSON.parse(request(infoUrl));
+
+        if (infoData && infoData.data && infoData.data.info) {
+            let detail = infoData.data.info.detail || {};
+            VOD = {
+                vod_name: infoData.data.info.title || "",
+                type_name: detail.kind || "",
+                vod_year: detail.releaseTime || "",
+                vod_area: detail.area || "",
+                vod_actor: detail.leader || "",
+                vod_director: detail.director || "",
+                vod_content: detail.story || "",
+                vod_remarks: detail.updateInfo || ""
+            };
+            if (detail.img) VOD.vod_pic = detail.img;
+        }
+
+        let d = [];
+        let html = request(input);
+        let json = JSON.parse(html);
+        let host = "https://www.mgtv.com";
+        let ourl = json.data.list.length > 0 ? json.data.list[0].url : json.data.series[0].url;
+        if (!/^http/.test(ourl)) ourl = host + ourl;
+
+        fetch_params.headers["User-Agent"] = MOBILE_UA;
+        html = request(ourl);
+        if (html.includes("window.location =")) {
+            ourl = pdfh(html, "meta[http-equiv=refresh]&&content").split("url=")[1];
+            html = request(ourl);
+        }
+
+        try {
+            let details = pdfh(html, ".m-details&&Html").replace(/h1>/, "h6>").replace(/div/g, "br");
+            let actor = "",
+                director = "",
+                time = "";
+            if (/播出时间/.test(details)) {
+                actor = pdfh(html, "p:eq(5)&&Text").substr(0, 25);
+                director = pdfh(html, "p:eq(4)&&Text");
+                time = pdfh(html, "p:eq(3)&&Text");
+            } else {
+                actor = pdfh(html, "p:eq(4)&&Text").substr(0, 25);
+                director = pdfh(html, "p:eq(3)&&Text");
+                time = "已完结";
+            }
+            let _img = pd(html, ".video-img&&img&&src");
+            let JJ = pdfh(html, ".desc&&Text").split("牛马简介：")[1];
+            VOD.vod_name = VOD.vod_name || pdfh(html, ".vt-txt&&Text");
+            VOD.type_name = VOD.type_name || pdfh(html, "p:eq(0)&&Text").substr(0, 6);
+            VOD.vod_area = VOD.vod_area || pdfh(html, "p:eq(1)&&Text");
+            VOD.vod_actor = VOD.vod_actor || actor;
+            VOD.vod_director = VOD.vod_director || director;
+            VOD.vod_remarks = VOD.vod_remarks || time;
+            VOD.vod_pic = VOD.vod_pic || _img;
+            VOD.vod_content = VOD.vod_content || JJ;
+            if (!VOD.vod_name) VOD.vod_name = VOD.type_name;
+        } catch (e) {
+            log("获取影片信息发生错误:" + e.message);
+        }
+
+        function getRjpg(imgUrl, xs) {
+            xs = xs || 3;
+            let picSize = /jpg_/.test(imgUrl) ? imgUrl.split("jpg_")[1].split(".")[0] : false;
+            let rjpg = false;
+            if (picSize) {
+                let a = parseInt(picSize.split("x")[0]) * xs;
+                let b = parseInt(picSize.split("x")[1]) * xs;
+                rjpg = a + "x" + b + ".jpg";
+            }
+            return /jpg_/.test(imgUrl) && rjpg ? imgUrl.replace(imgUrl.split("jpg_")[1], rjpg) : imgUrl;
+        }
+
+        if (json.data.total === 1 && json.data.list.length === 1) {
+            let data = json.data.list[0];
+            d.push({
+                title: data.t4,
+                desc: data.t2,
+                pic_url: getRjpg(data.img),
+                url: "https://www.mgtv.com" + data.url
+            });
+        } else if (json.data.list.length > 1) {
+            for (let i = 1; i <= json.data.total_page; i++) {
+                if (i > 1) json = JSON.parse(fetch(input.replace("page=1", "page=" + i), {}));
+                json.data.list.forEach(function(data) {
+                    if (data.isIntact == "1") {
+                        d.push({
+                            title: data.t4,
+                            desc: data.t2,
+                            pic_url: getRjpg(data.img),
+                            url: "https://www.mgtv.com" + data.url
+                        });
+                    }
+                });
+            }
+        } else {
+            print(input + "暂无片源");
+        }
+        VOD.vod_play_from = "\u5929\u795e\u0049\u0059\u2014\u2014\u832b\u832b";
+        VOD.vod_play_url = d.map(function(it) {
+            return it.title + "$" + it.url;
+        }).join("#");
+        setResult(d);
+    }),
+    搜索: $js.toString(() => {
+        fetch_params.headers.Referer = "https://www.mgtv.com";
+        fetch_params.headers["User-Agent"] = MOBILE_UA;
+        let d = [];
+        let html = request(input);
+        let json = JSON.parse(html);
+        json.data.contents.forEach(function(data) {
+            if (data.type && data.type == 'media') {
+                let item = data.data[0];
+                if (item.source === "imgo") {
+                    let fyclass = '';
+                    try {
+                        fyclass = item.rpt.match(/idx=(.*?)&/)[1] + '$';
+                    } catch (e) {
+                        log(e.message);
+                    }
+                    d.push({
+                        title: item.title.replace(/<B>|<\/B>/g, ''),
+                        img: item.img || '',
+                        content: '',
+                        desc: item.desc.join(','),
+                        url: fyclass + item.url.match(/.*\/(.*?)\.html/)[1]
+                    });
+                }
+            }
+        });
+        setResult(d);
+    })
+};
+
+function getCommonFilter() {
+    return [{
+        "key": "chargeInfo",
+        "name": "付费类型",
+        "value": [{
+                "n": "全部",
+                "v": "all"
+            },
+            {
+                "n": "免费",
+                "v": "b1"
+            },
+            {
+                "n": "vip",
+                "v": "b2"
+            },
+            {
+                "n": "VIP用券",
+                "v": "b3"
+            },
+            {
+                "n": "付费点播",
+                "v": "b4"
+            }
+        ]
+    }, {
+        "key": "sort",
+        "name": "排序",
+        "value": [{
+                "n": "最新",
+                "v": "c1"
+            },
+            {
+                "n": "最热",
+                "v": "c2"
+            },
+            {
+                "n": "知乎高分",
+                "v": "c4"
+            }
+        ]
+    }, {
+        "key": "year",
+        "name": "年代",
+        "value": [{
+                "n": "全部",
+                "v": "all"
+            },
+            {
+                "n": "2026",
+                "v": "2026"
+            },
+            {
+                "n": "2025",
+                "v": "2025"
+            },
+            {
+                "n": "2024",
+                "v": "2024"
+            },
+            {
+                "n": "2023",
+                "v": "2023"
+            },
+            {
+                "n": "2022",
+                "v": "2022"
+            },
+            {
+                "n": "2021",
+                "v": "2021"
+            },
+            {
+                "n": "2020",
+                "v": "2020"
+            },
+            {
+                "n": "2019",
+                "v": "2019"
+            },
+            {
+                "n": "2018",
+                "v": "2018"
+            },
+            {
+                "n": "2017",
+                "v": "2017"
+            },
+            {
+                "n": "2016",
+                "v": "2016"
+            },
+            {
+                "n": "2015",
+                "v": "2015"
+            },
+            {
+                "n": "2014",
+                "v": "2014"
+            },
+            {
+                "n": "2013",
+                "v": "2013"
+            },
+            {
+                "n": "2012",
+                "v": "2012"
+            },
+            {
+                "n": "2011",
+                "v": "2011"
+            },
+            {
+                "n": "2010",
+                "v": "2010"
+            },
+            {
+                "n": "2009",
+                "v": "2009"
+            },
+            {
+                "n": "2008",
+                "v": "2008"
+            },
+            {
+                "n": "2007",
+                "v": "2007"
+            },
+            {
+                "n": "2006",
+                "v": "2006"
+            },
+            {
+                "n": "2005",
+                "v": "2005"
+            },
+            {
+                "n": "2004",
+                "v": "2004"
+            }
+        ]
+    }];
+}
